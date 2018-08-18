@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>bulb on and off</title>
+<script>
+    function switchon()
+     {
+       document.images[0].src="bulbon.png";
+      }
+      function switchoff()
+     {
+       document.images[0].src="bulboff1.png";
+      }
+</script>
+</head>
+<body>
+   <center>
+     <img src="bulboff1.png" width="400" height="500" alt="bulb" /><br><br> 
+     <input type="button" name="btnon" value=" ON" onclick="switchon()" />
+     <input type="button" name="btnoff" value=" OFF" onclick="switchoff()" />
+   </center>
+</body>
+</html>
