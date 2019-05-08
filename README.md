@@ -1,2 +1,2 @@
 # PHP-Projects
-To update my knowledge
+To update my knowledge and skills
